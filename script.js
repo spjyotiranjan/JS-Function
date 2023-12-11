@@ -5,9 +5,9 @@
 //Step 4: Display the age on the console.
 // Your code goes here
 function ageCalculator(birthYear,presentYear) {
-    console.log(presentYear-birthYear);
+    return presentYear-birthYear;
 }
-ageCalculator(2005,2023)
+console.log(ageCalculator(2005,2023))
 //Challenge 2: Following is the code snippet commented , remove the comments and get started with the challenge. Find the errors and rewrite the function.
 
 function Addition(b,c){
